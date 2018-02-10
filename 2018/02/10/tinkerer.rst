@@ -6,7 +6,7 @@ I'm writing this blog using a tool called `Tinkerer <http://tinkerer.me>`_.
 
 It's a blogging system created with Pythonistas in mind.
 
-It feels very familiar. You simply ``pip install tinkerer` and use
+It feels very familiar. You simply ``pip install tinkerer`` and use
 the commandline tool ``tinker`` to publish blog posts and web pages
 written in `ReStructuredText <http://docutils.sourceforge.net/docs/user/rst/quickstart.html>`_.
 
