@@ -1,4 +1,4 @@
-about
+About
 =====
 
 This is a site for me to write things I want to write about.
