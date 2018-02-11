@@ -69,6 +69,25 @@
             <span>February 10, 2018</span>
         </div>
         <div class="section">
+            <h1><a href="2018/02/10/rst_cheatsheet_rst.html">reStructuredText Cheatsheet</a></h1>
+<p>Here’s a link to a good RestructuredText cheat sheet.</p>
+<p><a class="reference external" href="https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst">https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst</a></p>
+
+        </div>
+        <div class="postmeta">
+        <div class="author">
+            <span>Posted by Shaun Taylor-Morgan</span>
+        </div>
+        
+        <div class="tags">
+            <span>
+                Tags:
+                <a href="tags/markup.html">markup</a>, <a href="tags/rst.html">rst</a>, <a href="tags/restructuredtext.html">restructuredtext</a></span>
+        </div>
+        </div><div class="separator post_separator"></div><div class="timestamp postmeta">
+            <span>February 10, 2018</span>
+        </div>
+        <div class="section">
             <h1><a href="2018/02/10/tinkerer.html">Tinkerer</a></h1>
 <p>I’m writing this blog using a tool called <a class="reference external" href="http://tinkerer.me">Tinkerer</a>.</p>
 <p>It’s a blogging system created with Pythonistas in mind.</p>
@@ -94,29 +113,71 @@ publish your site.</p>
 
         </div>
         <div class="postmeta">
+        <div class="author">
+            <span>Posted by Shaun Taylor-Morgan</span>
+        </div>
         
-        
-        
+        <div class="tags">
+            <span>
+                Tags:
+                <a href="tags/markup.html">markup</a>, <a href="tags/rst.html">rst</a>, <a href="tags/restructuredtext.html">restructuredtext</a>, <a href="tags/tinkerer.html">tinkerer</a>, <a href="tags/python.html">python</a>, <a href="tags/hosting.html">hosting</a>, <a href="tags/github.html">github</a></span>
+        </div>
         </div><div class="separator post_separator"></div><div class="timestamp postmeta">
             <span>February 10, 2018</span>
         </div>
         <div class="section">
-            Hello, world!
+            <h1><a href="2018/02/10/hello_world.html">Hello, World!</a></h1>
+<p>An excercise in obfuscation. I promise this will not break your computer.</p>
+<p>Tested with Requests version 2.17.3. It may easily break with different
+Requests versions; the reason for this relates to the use of the number 42.</p>
+<div class="highlight-python"><div class="highlight"><pre><span/><span class="ch">#!/usr/bin/env python3</span>
+
+<span class="kn">import</span> <span class="nn">requests</span> <span class="kn">as</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">subprocess</span> <span class="kn">as</span> <span class="nn">structured</span>
+<span class="kn">import</span> <span class="nn">textwrap</span> <span class="kn">as</span> <span class="nn">text</span>
+
+<span class="n">SGVsbG8sIFdvcmxkIQo</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">dedent</span><span class="p">(</span><span class="s2">"""</span>
+<span class="s2">    aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kv</span>
+<span class="s2">    JTIySGVsbG8sX1dvcmxkISUyMl9wcm9ncmFtCg==</span>
+<span class="s2">"""</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">,</span> <span class="s1">''</span><span class="p">)</span>
+
+<span class="n">iYmFzZTY0Cg</span> <span class="o">=</span> <span class="nb">hex</span><span class="p">(</span><span class="mi">2990</span><span class="p">)[</span><span class="o">-</span><span class="mi">3</span><span class="p">:][:</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s1">'s'</span><span class="n">f</span><span class="s1">'e{2**6}'</span>
+
+<span class="k">for</span> <span class="n">asdf</span> <span class="ow">in</span> <span class="s1">'aAsSdDfF'</span><span class="p">:</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">d2lraXBlZGlhCg</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">get</span><span class="p">(</span>
+            <span class="n">structured</span><span class="o">.</span><span class="n">check_output</span><span class="p">(</span>
+                <span class="n">f</span><span class="s1">'echo {SGVsbG8sIFdvcmxkIQo} | '</span>
+                <span class="n">f</span><span class="s1">'{iYmFzZTY0Cg} -{asdf}'</span><span class="p">,</span>
+                <span class="n">shell</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">stderr</span><span class="o">=</span><span class="n">structured</span><span class="o">.</span><span class="n">PIPE</span><span class="p">)[:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+    <span class="k">except</span> <span class="n">structured</span><span class="o">.</span><span class="n">CalledProcessError</span><span class="p">:</span>
+        <span class="k">continue</span>
+
+<span class="k">print</span><span class="p">(</span><span class="nb">getattr</span><span class="p">(</span><span class="n">d2lraXBlZGlhCg</span><span class="p">,</span> <span class="n">re</span><span class="o">.</span><span class="vm">__doc__</span><span class="p">[</span><span class="mi">400</span> <span class="o">+</span> <span class="mi">42</span><span class="p">:</span><span class="mi">404</span> <span class="o">+</span> <span class="mi">42</span><span class="p">]))</span>
+</pre></div>
+</div>
+
         </div>
         <div class="postmeta">
         <div class="author">
             <span>Posted by Shaun Taylor-Morgan</span>
         </div>
         
-        
+        <div class="tags">
+            <span>
+                Tags:
+                <a href="tags/python.html">python</a>, <a href="tags/stupid_code.html">stupid_code</a>, <a href="tags/obfuscation.html">obfuscation</a></span>
+        </div>
         </div><div class="archive_link">
         <a href="archive.html"> &mdash; Blog Archive &mdash; </a>
     </div></article><aside class="sidebar"><section><div class="widget">
     <h1>Recent Posts</h1>
     <ul><li>
+            <a href="2018/02/10/rst_cheatsheet_rst.html">reStructuredText Cheatsheet</a>
+        </li><li>
             <a href="2018/02/10/tinkerer.html">Tinkerer</a>
         </li><li>
-            <a href="2018/02/10/hello_world.html">Hello, world!</a>
+            <a href="2018/02/10/hello_world.html">Hello, World!</a>
         </li></ul>
 </div>
 </section><section><div class="widget" id="searchbox" role="search">

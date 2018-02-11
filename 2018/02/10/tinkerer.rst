@@ -32,3 +32,7 @@ page on GitHub. GitHub does some magic where a repo named
 This is great because you don't need to separately store your repo and 
 publish your site.
 
+.. author:: default
+.. categories:: none
+.. tags:: markup,rst,restructuredtext,tinkerer,python,hosting,github
+.. comments::
