@@ -1,6 +1,6 @@
-============
-Tinkerer
-============
+=====================
+Tinkerer (blog tool)
+=====================
 
 I'm writing this blog using a tool called `Tinkerer <http://tinkerer.me>`_.
 
